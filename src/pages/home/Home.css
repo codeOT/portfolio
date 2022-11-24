@@ -1,0 +1,115 @@
+.home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 2rem;
+    min-height: calc(100vh - 6.5rem);
+  }
+  
+  .home .image {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 42rem;
+            flex: 1 1 42rem;
+    text-align: center;
+  }
+  
+  .home .image img {
+    height: 50rem;
+    width: 50rem;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: 5px 5px 5px #aaa,
+               -5px -5px 5px rgb(190, 190, 190);
+  }
+  
+  .home .content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 42rem;
+            flex: 1 1 42rem;
+  }
+  
+  .home .content h3 {
+    color: #333;
+    font-size: 4rem;
+    padding-bottom: .5rem;
+  }
+  /* .name{
+    background-color: #1a1a1a;
+    color: #eee;
+    padding: 5px;
+  } */
+  
+  .home .content .auto {
+    font-size: 3rem;
+    color: crimson;
+    padding: .5rem 0 0.2rem 0;
+    border-left: 1px solid #eee ;
+    /* display: block; */
+  }
+  .home .content p {
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1rem 0;
+    line-height: 2;
+    font-weight: bolder;
+  }
+
+
+
+
+@media (max-width: 768px) {
+  .home {
+    text-align: center;
+    gap: 2rem;
+  }
+  .home .image img {
+    height: 30rem;
+    width: 30rem;
+  }
+  
+  .home .content h3 {
+    font-size: 3rem;
+  }
+ 
+  .home .content .auto {
+    font-size: 2.5rem;
+    color: crimson;
+    padding: .5rem 0 0.2rem 0;
+    display: inline-block;
+  }
+  /* .name{
+    background-color: #1a1a1a;
+    color: #eee;
+    padding: 5px;
+  } */
+ 
+}
+  
+  
+  @media (max-width: 1200px) {
+    .home{
+      margin-left: 0rem;
+    }
+    .home .content{
+      /* margin-left: 3rem; */
+      padding-bottom: 2rem;
+    }
+    .home .content .auto {
+      font-size: 3rem;
+      color: crimson;
+      padding: .5rem 0;
+      display: inline-block;
+  
+    }
+    /* .name{
+      background-color: #1a1a1a;
+      color: #eee;
+      padding: 5px;
+    } */
+    
+  }
+

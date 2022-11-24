@@ -1,0 +1,138 @@
+.contact .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .contact .row .info-container {
+    width: 40rem;
+  }
+  
+  .contact .row .info-container h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #333;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+  }
+  
+  .contact .row .info-container p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #333;
+    padding: 1rem 0;
+    font-weight: bold;
+  }
+  
+  .contact .row .info-container .box-container {
+    padding: 2rem 0;
+  }
+  
+  .contact .row .info-container .box-container .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+  
+  .contact .row .info-container .box-container .box .icon {
+    /* padding: 2rem; */
+    font-size: 3rem;
+    color: crimson;
+  }
+  
+  .contact .row .info-container .box-container .box h3 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .contact .row .info-container .share a {
+    padding: 1.5rem;
+    font-size: 2.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    /* background: #1a1a1a; */
+    color: #1a1a1a;
+    text-align: center;
+    margin-right: .3rem;
+  }
+  
+  .contact .row .info-container .share a:hover {
+    /* background: crimson; */
+    color: crimson;
+  }
+  
+  .contact .row form {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 42rem;
+            flex: 1 1 42rem;
+  }
+  
+  .contact .row form .inputBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .contact .row form .inputBox input {
+    width: 49%;
+  }
+  
+  .contact .row form .inputBox input,
+  .contact .row form textarea {
+    border-radius: 5rem;
+    padding: 1.2rem 1.8rem;
+    font-size: 2rem;
+    font:bold;
+    color: #000;
+    text-transform: none;
+    margin: .7rem 0;
+    background: rgb(206, 205, 205);
+  }
+  
+  .contact .row form textarea {
+    width: 100%;
+    border-radius: 1rem;
+    resize: none;
+    height: 25rem;
+  }
+  
+  .contact .row form .btn {
+    padding: 1rem 3rem;
+    cursor: pointer;
+  }
+  
+  .contact .row form .btn:hover {
+    background: rgb(202, 54, 83);
+    color: #eee;
+  }
+  .sub{
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+  @media (max-width: 768px) {
+    .contact .row form .inputBox input {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+  }
