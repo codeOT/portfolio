@@ -6,6 +6,7 @@ import huddle from '../../assets/huddle.png'
 import acme from '../../assets/acme.png'
 import portfolio from '../../assets/portfolio.png'
 import sneakers from '../../assets/sneakers.png'
+import text from '../../assets/text.png'
 
 function Portfolio() {
   return (
@@ -73,6 +74,16 @@ function Portfolio() {
             <p>my portfolio website designed with react and CSS3</p>
             <a href="https://portfolio-two-eta-99.vercel.app/">visit site</a>
             <a href="https://github.com/codeOT/portfolio"> Github page</a>
+        </div>
+    </div>
+
+    <div className="box">
+        <img src={text} alt="" />
+        <div className="content">
+            <h3>Text to speech web app</h3>
+            <p>a text to speech web app using JavaScript</p>
+            <a href="https://text-to-speech-web-app.vercel.app/">visit demo site</a>
+            <a href="https://github.com/codeOT/Text-to-speech-web-app"> Github page</a>
         </div>
     </div>
 
